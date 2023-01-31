@@ -1,0 +1,19 @@
+{
+  "name": "pageobjects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard":"npx cypress run --record --key 9aa20501-0906-4ee5-bb67-0441542885f0",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.4.1",
+    "cypress-image-snapshot": "^4.0.1"
+  }
+}
